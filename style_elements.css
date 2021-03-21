@@ -114,7 +114,7 @@ a{
 }
 
 .post__img{
-    background: url("img5.jpg") no-repeat padding-box;
+    background: url("../img5.jpg") no-repeat padding-box;
     height: 300px;
     background-size: cover;
     padding: 30px;  
