@@ -1,0 +1,73 @@
+/* PARTS OF THE WEBSITE:
+*
+* Container
+* Header - Here is the name of the page and the logo.
+* Menu - Here are the links.
+* Main - Here is the content section of the website.
+* Left side - Here are the blog posts.
+* Right side - Here are the older posts and the chategories.
+* Footer - Here is the name of the website creator
+*
+*/
+
+:root{
+    --color-background: #F4F3F5;
+    --color-header: #6200EA;
+    --color-menu: white;
+    --color-footerbox: #211138;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Tahoma, 'sans-serif';
+    font-size: .75rem;  
+}
+
+.container{
+    position: relative;
+    min-height: 2040px;
+    background-color: var(--color-background);
+    width: 100vw;
+}
+
+header{
+    height: 80px;
+    background-color: var(--color-header);
+}
+
+.menu{
+    height: 67px;
+    background-color: var(--color-menu);
+}
+
+.main{
+    margin: 0px auto;
+    width: 58%;
+ }
+
+.left_side{
+    position: relative;
+    float: left;
+    width: 65%;
+}
+
+.right_side{
+    float: right;
+    width: 300px;
+}
+
+.footer_box{
+  position: absolute;
+  top: calc(100% - 80px);
+  width: 100vw;
+  height: 100px;
+  background-color: var(--color-footerbox);  
+}
+
+footer{
+    text-align: center;
+    margin: 50px 0px;
+}
